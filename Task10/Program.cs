@@ -8,4 +8,7 @@
 
 Console.WriteLine("Введите трёхзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
+int firstremainder = number /10;
+int secondremainder = firstremainder % 10; 
 
+Console.WriteLine($"Вторая цифра числа {number} равна -> {secondremainder}");
