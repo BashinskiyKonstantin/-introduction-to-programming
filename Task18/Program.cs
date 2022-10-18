@@ -5,10 +5,10 @@
 Console.WriteLine ("Введите номер четверти");
 string number = Console.ReadLine();
 
-string quarter = Quarter (number);
+string quarter = Range (number);
 Console.WriteLine($"Координаты: {quarter}");
 
-string Range (istring num)
+string Range (string num)
 {
 if (num=="1") return ("X>0 и Y>0");
 if (num=="2") return ("X<0 и Y>0");
