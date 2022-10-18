@@ -35,12 +35,12 @@ int[] GetSumPositiveNegativeElem(int[] array)
         if (array[i] < 0) sumNegative += array[i];
         else sumPositive += array[i];
     }
-    return new int[] {sumNegative, sumPositive};
+    return new int[] { sumNegative, sumPositive };
 }
 
 
 int[] arr = CreateArrayRndInt(12, -9, 9);
 PrintArray(arr);
-int [] result = GetSumPositiveNegativeElem (arr);
+int[] result = GetSumPositiveNegativeElem(arr);
 Console.WriteLine($"Сумма положительных чисел = {result[1]}");
 Console.WriteLine($"Сумма отрицательных чисел = {result[0]}");
