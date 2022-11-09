@@ -49,9 +49,9 @@ int SumElements(int[,] matrix)
 int SumElements2(int[,] matrix)
 {
     int sum = default;
-    int length = 0;
-    if (matrix.GetLength(0) > matrix.GetLength(1)) length = 1;
-    for (int i = 0; i < matrix.GetLength(length); i++)
+    int demention = 0;
+    if (matrix.GetLength(0) > matrix.GetLength(1)) demention = 1;
+    for (int i = 0; i < matrix.GetLength(demention); i++)
     {
         sum += matrix[i, i];
     }
