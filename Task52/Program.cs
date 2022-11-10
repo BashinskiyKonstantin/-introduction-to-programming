@@ -38,7 +38,7 @@ void PrintMatrix(int[,] matrix)
 
 
 
-double AverageElements(int[,] matrix)
+void AverageElements(int[,] matrix)
 {
     double sum = default;
     double average = default;
@@ -56,7 +56,6 @@ double AverageElements(int[,] matrix)
         sum = 0;
 
     }
-    return avg;
 }
 
 int[,] array2D = CreateMatrixRndInt(3, 4, 1, 10);
