@@ -61,9 +61,10 @@ bool SearchElements(int rows, int columns, int[,] matrix)
     }
     return result;
 }
-
+Console.WriteLine();
 int[,] array2D = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2D);
+Console.WriteLine();
 bool search = SearchElements(rowsElements, columnsElements, array2D);
-if (search) Console.WriteLine($"Значение элемента {array2D[rowsElements, columnsElements]} ");
+if (search) Console.WriteLine($"Значение элемента массива -> {array2D[rowsElements, columnsElements]} ");
 else Console.WriteLine($"{rowsElements}, {columnsElements} - такого элемента в массиве нет");

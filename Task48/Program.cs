@@ -15,7 +15,7 @@ int[,] CreateMatrixRndInt(int rows, int columns)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = i+j;
+            matrix[i, j] = i + j;
         }
     }
     return matrix;
