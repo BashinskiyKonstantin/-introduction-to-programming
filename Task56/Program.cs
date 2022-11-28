@@ -49,7 +49,7 @@ int SumLineElements(int[,] matrix, int i)
 
 int StringMinSumLineElements(int sumLine, int[,] matrix)
 {
-    int minSumLine = 0;
+    int stringMinSumLine = 0;
     sumLine = SumLineElements(matrix, 0);
     for (int i = 1; i < matrix.GetLength(0); i++)
     {
@@ -57,10 +57,10 @@ int StringMinSumLineElements(int sumLine, int[,] matrix)
         if (sumLine > tempSumLine)
         {
             sumLine = tempSumLine;
-            minSumLine = i;
+            stringMinSumLine = i;
         }
     }
-    return minSumLine;
+    return stringMinSumLine;
 }
 
 
