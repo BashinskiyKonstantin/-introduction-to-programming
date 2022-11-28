@@ -9,8 +9,6 @@
 int[,,] CreateMatrixRndInt(int rows, int columns, int depth, int min)
 {
     var matrix = new int[rows, columns, depth];
-    var rnd = new Random();
-
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
