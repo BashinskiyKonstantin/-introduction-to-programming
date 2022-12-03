@@ -3,9 +3,9 @@
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
 
-Console.Write("Введите первое неотрицательное число: ");
+Console.Write("Введите первое неотрицатепльное число: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите второе неотрицательное число: ");
+Console.Write("Введите второе неотрицатепльное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int FunctionAkkerman(int m, int n)
